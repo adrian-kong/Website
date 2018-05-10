@@ -10,7 +10,7 @@
       array.splice(array.indexOf(selected), 1);
     }
 
-$(window).scroll(function () {
+$(window).on('scroll touchmove',function () {
     $('#header_nav').toggleClass('tiny', $(document).scrollTop() > 0);
     $('.fade').each( function(i){
         var bottom_of_object = $(this).position().top + $(this).outerHeight();
