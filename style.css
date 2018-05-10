@@ -11,6 +11,10 @@
   color: lightgray;
 }
 
+.fade{
+  opacity: 0;
+}
+
 .lato {
   font-family: 'Lato', sans-serif;
 }
