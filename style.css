@@ -32,10 +32,6 @@
   position: relative;
 }
 
-.half {
-  height: 50%;
-}
-
 .section {
   background-color: lightgray;
 }
@@ -47,5 +43,5 @@
     transition-timing-function: cubic-bezier(1, 1);
 }
 .header.tiny {
-    height:100px;
+    height:0px;
 }
