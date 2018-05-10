@@ -10,13 +10,6 @@
       array.splice(array.indexOf(selected), 1);
     }
 
-$(window).scroll(function () {
+$(window).on("scroll touchmove", function () {
     $('#header_nav').toggleClass('tiny', $(document).scrollTop() > 0);
-    $('.fade').each( function(i){
-        var bottom_of_object = $(this).position().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        if( bottom_of_window > bottom_of_object ){        
-            $(this).animate({'opacity':'1'},1500);
-        }
-    });
 });
