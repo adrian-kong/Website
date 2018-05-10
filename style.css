@@ -1,0 +1,51 @@
+.bg{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.text{
+  font-size: 108px;
+  color: lightgray;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.center{
+  position: relative;
+  text-align: center;
+  top: 35%;
+}
+
+.parallax {
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.half {
+  height: 50%;
+}
+
+.section {
+  background-color: lightgray;
+}
+
+.header {
+    height:100%;
+    position:relative;
+    transition: 1s;
+    transition-timing-function: cubic-bezier(1, 1);
+}
+.header.tiny {
+    height:100px;
+}
