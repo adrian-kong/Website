@@ -26,7 +26,7 @@
 }
 
 .parallax {
-  height: 50%;
+  height: 100%;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -37,7 +37,6 @@
 }
 
 .header {
-    height:100%;
     position:relative;
     transition: 1s;
     transition-timing-function: cubic-bezier(1, 1);
