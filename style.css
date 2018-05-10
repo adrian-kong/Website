@@ -46,3 +46,7 @@
     transition-timing-function: cubic-bezier(1, 1);
 }
 
+.header.tiny{
+    height:100%;
+}
+
