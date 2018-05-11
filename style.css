@@ -7,12 +7,43 @@
 }
 
 .text{
-  font-size: 108px;
-  color: lightgray;
+  color: white;
 }
 
-.fade{
-  opacity: 0;
+.big {
+  font-size: 108px;
+}
+
+.medbig {
+  font-size: 72px;
+}
+
+.medium {
+  font-size: 36px;
+  line-height: 0px;
+}
+
+.textcontainer {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 5%;
+}
+
+.left {
+  float: left;
+  width: 48%;
+}
+
+.right{
+  float: right;
+  width: 48%;
+}
+
+.small{
+  font-size: 18px;
+}
+.tiny {
+  font-size: 14px;
 }
 
 .lato {
@@ -23,10 +54,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .center{
   position: relative;
   text-align: center;
-  top: 35%;
+  top: 30%;
 }
 
 .parallax {
@@ -36,16 +71,21 @@
   position: relative;
 }
 
+.half {
+  height: 50%;
+}
+
 .section {
-  background-color: white;
+  background-color: lightgray;
 }
 
 .header {
+    height:100%;
     position:relative;
     transition: 1s;
     transition-timing-function: cubic-bezier(1, 1);
 }
 
-.header.tiny{
+.header.tiny {
     height: 40px;
 }
