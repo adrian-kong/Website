@@ -13,6 +13,7 @@
 .parpic {
   opacity: 0.5;
   position: absolute;
+  height: 100%;
   top: 0;
   bottom:0;
 }
