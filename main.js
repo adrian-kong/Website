@@ -2,7 +2,6 @@ var need = title.textContent;
 var possible = "abcdefghijklmnopqrstuvwxyz0123456789 ";
 (function generate(text) {
     var title = document.getElementById('title');
-    console.log(title.textContent);
     if (!text) {
         for (i = 0; i < need.length; i++) {
             text += possible.charAt(Math.floor(Math.random() * possible.length));
@@ -25,6 +24,7 @@ var possible = "abcdefghijklmnopqrstuvwxyz0123456789 ";
         }, 5);
     }
 }(""));
+
 
 function setCharAt(str, index, chr) {
     if (index > str.length - 1) return str;
